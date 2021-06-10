@@ -1,6 +1,11 @@
 import React from "react";
 
 class AddContact extends React.Component {
+    state = {
+        name: "",
+        email: "",
+    };
+
     render() {
         return (
           <div className="ui main">
@@ -11,14 +16,18 @@ class AddContact extends React.Component {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Name" />
+                  placeholder="Name" 
+                  value={this.state.name}
+                  onChange={ (e) => this.setState({ name: e.target.value})}/>
               </div>
               <div className="field">
                 <label>Email</label>
                 <input
                   type="text"
                   name="email"
-                  placeholder="Email" />
+                  placeholder="Email" 
+                  value={this.state.email}
+                  onChange={ (e) => this.setState({ email: e.target.value})}/>
               </div>
               <button className="ui button blue">Add</button>
             </form>
