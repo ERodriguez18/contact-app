@@ -19,7 +19,7 @@ const ContactDetail = (props) => {
         </div>
         <div className="center-div">
             <div><Link to="/">
-            <button className="ui blue button">Back To Contact List</button>
+            <button className="ui blue button center">Back To Contact List</button>
             </Link></div>
         </div>
         </div>

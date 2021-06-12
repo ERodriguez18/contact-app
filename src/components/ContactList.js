@@ -20,7 +20,7 @@ const ContactList = (props) => {
     );
   });
   return (
-      <div class="main">
+      <div className="main">
           <h2>
               Contact list
           </h2>
