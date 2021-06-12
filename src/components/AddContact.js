@@ -42,8 +42,8 @@ class AddContact extends React.Component {
             </form>
           </div>
         );
-      };
-    };
+      }
+    }
     
 
     export default AddContact;
