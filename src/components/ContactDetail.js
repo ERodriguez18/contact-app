@@ -17,12 +17,12 @@ const ContactDetail = (props) => {
             <div className="description">{email}</div>
         </div>
         </div>
-        <div className="center-div">
+        <div  className="ui column centered grid" >
             <div><Link to="/">
-            <button className="ui blue button center">Back To Contact List</button>
+            <button className="ui blue button">Back To Contact List</button>
             </Link></div>
         </div>
-        </div>
+        </div> 
     );
 };
 
