@@ -2,5 +2,5 @@ import axios from 'axios'
 
 
 export default axios.create({
-    baseURL:"http://localhost:3006/",
+    baseURL:"https://a-contact-management-app.herokuapp.com/",
 })
